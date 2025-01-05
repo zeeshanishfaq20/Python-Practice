@@ -3,7 +3,7 @@ def consec_val(n):
         return "Write a number between 1 and 150"
     seq = ''
     for i in range(1, n+1):
-        seq += str(i)
+        seq += str(i) + 'i'
     return seq    
            
 if __name__ == '__main__':
